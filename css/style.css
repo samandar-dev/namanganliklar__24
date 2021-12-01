@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(233, 232, 200);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+    /* display: inline-block;
+    margin: 0;
+    padding: 0;  */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.logo__item{
+    display: inline-block;
+    margin-top: 44px;
+}
+
+.logo {
+    padding: 6px 9px 11px 9px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+    border-radius: 5px;
+}
+
+/* .header__list{
+    display: inline-block;
+    margin-left: 17px;
+} */
+
+/* .header__list li+li{
+    margin-left: 25px;
+} */
+
+.header__list-box{
+    color: rgb(62, 51, 161);
+}
+
+/* .button__inner{
+    display: inline-block;
+    margin-left: 274px;
+} */
+
+.poisk__item {
+    background: #fff;
+    border: 0 solid ;
+    border-radius: 5px;
+}
+
+.ru__item{
+    background: #fff;
+    border: 0 solid ;
+    border-radius: 5px;
+} 
+
+.telegram__item{
+    background-color: #1E96C8;
+    color: #fff;
+
+    border: 0 solid ;
+    border-radius: 5px;
+    
+    /* font-weight: 500;
+    font-size: 16px;
+    line-height: 19px; */
+
+    padding: 11px 12px 8px 7px;
+}
+
+.main__menu{
+    background-color: #F6F6F9;
+}
+
+.item{
+    background-color: rgba(239, 186, 84, 0.18);
+}
+
+.text{
+    background-color: #F6F6F9;
+}
+
+.main__ohirgi-yangliklar{
+    background-color: #F6F6F9;
+}
+
+.footer{
+    background-color: #295093;
+    color: #fff;
+}
+
+.footer__logo{
+    background-color: #133C82;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.footer li{
+    background-color: #295093;
+    color: #fff;
+}
+
+.footer__list a{
+    font-size: 14px;
+    color: #fff;
+}
+
+
